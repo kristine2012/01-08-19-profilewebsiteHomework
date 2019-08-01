@@ -1,0 +1,139 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;	
+	text-decoration: none;
+
+}
+
+body{
+	background-color: white;
+}
+
+/*.myicon{
+		margin: 15px;
+		float: right;
+		font-size: 30px;
+		color:black;
+		display:block;
+}*/
+
+.fa-bars{
+	margin:5px;
+	float: right;
+	font-size: 30px;
+	background-color:none;
+}
+
+.kristine-profile-picture{
+	padding:10px 600px 100px 600px;
+	float: left;
+}
+
+/*/
+nav{
+	display: block;
+	float: right;
+}
+
+ul {
+	list-style: none;
+	margin: 30px 10px;
+	float: right;
+}
+
+ul::after{
+	content: "";
+	clear: both;
+}
+}
+
+/*ul li {
+	display: inline-block;
+	margin: 10px;
+	background: white;
+	width: 100px;
+	height: 30px;
+	text-align: left;
+	padding-top: 5px 
+	border-color: black 3px;
+
+}
+
+li a{
+	text-decoration: none;
+}
+
+li a:hover {
+	color: #ffcb0c;
+}
+
+a:visited {
+	color: black;
+}*/
+
+h2{
+	font-style: bold;
+	font-size: 40px;
+	text-align: center;
+	font-family: 'Hind Guntur', sans-serif;
+
+}
+
+p{
+	width: 100%;
+	font-size: 20px;
+	text-align: justify;
+	font-size: 24px;
+	margin: 50px;
+	font-family: 'Hind Guntur', sans-serif;
+
+}
+li{	width: 100%;
+	list-style: none;
+	font-size: 24px;
+	font-size: 24px;
+	font-family: 'Hind Guntur', sans-serif;
+	text-decoration-style: none;
+	margin:50px;
+
+}
+.about::after {
+	content: "";
+	clear: both;
+}
+
+@media only screen and (max-width: 576px){		
+	
+	nav{
+		display: none;
+	}
+	ul li {
+	display: block;
+	color:red;
+	/*margin: 10px;*/
+ }
+	/*.myicon{
+		margin: 15px;
+		float: right;
+		font-size: 30px;
+		color:black;
+		display:block;
+
+} 
+
+	/*.myicon::after{
+		clear: right;*/
+	} 
+	li{	width: 100%;
+	list-style: none;
+	font-size: 24px;
+	font-size: 24px;
+	font-family: 'Hind Guntur', sans-serif;
+	text-decoration-style: none;
+	text-align: center;
+
+}
+}
+}
